@@ -346,7 +346,7 @@ def create_type(command_str):
     except Exception as e:
         return "FAILURE"
 
-MAX_PAGES = 5
+MAX_PAGES = 50
 
 def get_db_filename(type_name: str) -> str:
     """
